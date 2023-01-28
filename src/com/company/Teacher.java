@@ -44,4 +44,8 @@ public class Teacher extends Person implements ITeacher{
     public void checkAssignments() {
         System.out.println("Teacher checks assignment");
     }
+
+    public void teach(){
+        System.out.println("At lab classes");
+    }
 }

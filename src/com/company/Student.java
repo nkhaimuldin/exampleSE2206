@@ -40,4 +40,8 @@ public final class Student extends Person{
     public String toString() {
         return super.toString() +" " + gpa;
     }
+
+    public void example(){
+        System.out.println("Example");
+    }
 }
